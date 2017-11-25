@@ -43,6 +43,8 @@ dependencies {
             "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version",
             'org.jetbrains.xodus:xodus-openAPI:1.0.5',
             'org.jetbrains.xodus:xodus-entity-store:1.0.5'
+    compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.7.0'
+    compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.7.0'
 
     testCompile 'junit:junit:4.12',
             'pl.pragmatists:JUnitParams:1.0.5',
