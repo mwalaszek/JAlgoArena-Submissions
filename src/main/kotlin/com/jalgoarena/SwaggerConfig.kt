@@ -23,7 +23,7 @@ open class SwaggerConfig {
 
     private fun apiInfo(): ApiInfo {
         return ApiInfoBuilder()
-                .title("Problems API")
+                .title("Submissions API")
                 .version("1.0.0")
                 .build()
     }
